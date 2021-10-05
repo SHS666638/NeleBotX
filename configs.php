@@ -80,12 +80,14 @@ $configs = [
 	# 4. NeleBotX configs
 		# 1. Bot Administrators					(Optional)	[Array of Telegram user ID]
 		'admins'					=> [
-			244432022 // Your ID
+			244432022
 		],
 		# 2. Plugins list						(Optional)	[Array of file name(text) => status(bool)]
 		'plugins'					=> [
 			'management.php'			=> 1,
-			'commands.php'				=> 1
+			'commands.php'
+                        'session.php'
+     				=> 1
 		],
 		# 2. Default requests response			(Optional)	[Bool]
 		'response'					=> 0,
